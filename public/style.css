@@ -1,0 +1,120 @@
+
+.center{
+  text-algin: center;
+}
+  
+.navbar2{
+  height: 40px
+
+}
+
+.card-img-top{
+  width: 100%;
+  height: auto;
+  object-fit: cover
+}
+
+.imagecarousel {
+  position: relative;
+  height: 233px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+}
+
+.imagecarousel img {
+margin: 0px 25px;
+box-shadow: 2px 2px 8px #8a8a8a;
+}
+
+.imagecarousel {
+animation: bannermove 5s linear infinite;
+}
+
+@keyframes bannermove {
+ 0% {
+  left: 0;
+}
+50% {
+  left: 10%;
+}
+100% {
+  left: 0;
+}
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#start{
+  text align: center
+}
+
+
+.button{
+  color:mediumpurple;
+}
+
+.border{
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 20 px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.image-contain{
+  float: left;
+  margin-right: 20 px
+}
+
+/* .text-cont{
+  overflow:hidden
+} */
+
+.footer { 
+  text-align:center ;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  background-color: #98623C;
+  min-height: 500
+}
+
+.comments-section{
+  align-content: center
+}
+
+body {
+  background-image: linear-gradient(#D2B48C,#F5F5DC);
+ 
+}
+.pic{
+  height:100px;
+  width: 40px;
+}
+
+.row{
+  content: center
+}
